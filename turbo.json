@@ -2,7 +2,7 @@
   "baseBranch": "origin/master",
   "globalDependencies": [
     "package.json",
-    "eslint/*.js"
+    "hello.js"
   ],
   "pipeline": {
     "build": {}
