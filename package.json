@@ -1,0 +1,31 @@
+{
+  "name": "turbo-bug",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mcrowder65/turbo-bug.git",
+  "author": "Matt Crowder <matt.crowder@veeva.com>",
+  "license": "MIT",
+  "scripts": {
+    "turbo": "turbo",
+    "build": "turbo run build"
+  },
+  "dependencies": {
+    "customize-cra": "1.0.0",
+    "react": "17.0.2",
+    "react-app-rewired": "2.2.1",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "turbo": "1.1.6"
+  },
+  "workspaces": [
+    "one",
+    "two",
+    "shared"
+  ],
+
+  "packageManager": "yarn@1.22.17"
+
+}
