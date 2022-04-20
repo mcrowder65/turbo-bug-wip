@@ -1,5 +1,8 @@
 {
   "baseBranch": "origin/master",
+  "globalDependencies": [
+    "package.json"
+  ],
   "pipeline": {
     "build": {}
   }
