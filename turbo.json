@@ -2,7 +2,8 @@
   "baseBranch": "origin/master",
   "globalDependencies": [
     "package.json",
-    "hello.js"
+    "hello.js",
+    "shared/**/*"
   ],
   "pipeline": {
     "build": {}
